@@ -1,0 +1,26 @@
+{
+  "id": "d46ceecc-9fce-4e98-81cf-8f34a362fa42",
+  "version": "0.0.26",
+  "timestamp": "2025-12-05T05:22:19.309Z",
+  "config": {
+    "blockSize": 8,
+    "prefix": "img",
+    "seed": 214448,
+    "preserveName": false,
+    "crossImageShuffle": false
+  },
+  "images": [
+    {
+      "w": 500,
+      "h": 500
+    },
+    {
+      "w": 400,
+      "h": 600
+    },
+    {
+      "w": 600,
+      "h": 400
+    }
+  ]
+}
