@@ -33,7 +33,7 @@ export const Image1: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
   },
 };
 
@@ -45,7 +45,7 @@ export const Image1__MismatchSeed: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
   },
   name: "Image 1 - Mismatch Seed",
 };
@@ -58,7 +58,7 @@ export const Image2: Story = {
       w: 400,
       h: 600,
     },
-    image: "/public/img_2_fragmented.png",
+    image: "img_2_fragmented.png",
   },
 };
 
@@ -70,7 +70,7 @@ export const Image2__MismatchSeed: Story = {
       w: 400,
       h: 600,
     },
-    image: "/public/img_2_fragmented.png",
+    image: "img_2_fragmented.png",
   },
   name: "Image 2 - Mismatch Seed",
 };
@@ -83,7 +83,7 @@ export const Image3: Story = {
       w: 600,
       h: 400,
     },
-    image: "/public/img_3_fragmented.png",
+    image: "img_3_fragmented.png",
   },
 };
 
@@ -95,7 +95,7 @@ export const Image3__MismatchSeed: Story = {
       w: 600,
       h: 400,
     },
-    image: "/public/img_3_fragmented.png",
+    image: "img_3_fragmented.png",
   },
   name: "Image 3 - Mismatch Seed",
 };
@@ -108,7 +108,7 @@ export const Error: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/invalid_image.png",
+    image: "invalid_image.png",
     fallback: <div>Loading...</div>,
     errorFallback: <div>Failed to restore image.</div>,
   },
@@ -121,16 +121,16 @@ export const Error: Story = {
 
 export const WithManifestUrl: Story = {
   args: {
-    manifest: "/public/manifest.json",
-    image: "/public/img_1_fragmented.png",
+    manifest: "manifest.json",
+    image: "img_1_fragmented.png",
   },
   name: "With Manifest URL",
 };
 
 export const WithManifestUrl__Image2: Story = {
   args: {
-    manifest: "/public/manifest.json",
-    image: "/public/img_2_fragmented.png",
+    manifest: "manifest.json",
+    image: "img_2_fragmented.png",
     imageIndex: 1,
   },
   name: "With Manifest URL - Image 2",
@@ -138,8 +138,8 @@ export const WithManifestUrl__Image2: Story = {
 
 export const WithManifestUrl__Image3: Story = {
   args: {
-    manifest: "/public/manifest.json",
-    image: "/public/img_3_fragmented.png",
+    manifest: "manifest.json",
+    image: "img_3_fragmented.png",
     imageIndex: 2,
   },
   name: "With Manifest URL - Image 3",
@@ -168,7 +168,7 @@ export const WithManifestData: Story = {
         { w: 600, h: 400 },
       ],
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
   },
   name: "With Manifest Data",
 };
@@ -185,7 +185,7 @@ export const ProtectedEnabled: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
     protected: true,
   },
   name: "Protected - Enabled (Default)",
@@ -199,7 +199,7 @@ export const ProtectedDisabled: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
     protected: false,
   },
   name: "Protected - Disabled",
@@ -217,7 +217,7 @@ export const CustomFallback: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
     fallback: (
       <div style={{ width: 500, height: 500, display: "flex", alignItems: "center", justifyContent: "center", backgroundColor: "#f0f0f0" }}>
         <span>🔄 Restoring image...</span>
@@ -235,7 +235,7 @@ export const ErrorFallbackAsFunction: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/invalid_image.png",
+    image: "invalid_image.png",
     fallback: <div>Loading...</div>,
     errorFallback: (error: Error) => (
       <div style={{ color: "red", padding: "20px", border: "1px solid red" }}>
@@ -258,7 +258,7 @@ export const WithAltText: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
     alt: "Sample image with alt text",
   },
   name: "With Alt Text",
@@ -272,7 +272,7 @@ export const WithCustomStyle: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
     style: {
       borderRadius: "16px",
       boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
@@ -289,7 +289,7 @@ export const WithClassName: Story = {
       w: 500,
       h: 500,
     },
-    image: "/public/img_1_fragmented.png",
+    image: "img_1_fragmented.png",
     className: "custom-pixzle-image",
   },
   name: "With ClassName",
