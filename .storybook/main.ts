@@ -12,6 +12,6 @@ const config: StorybookConfig = {
     "@storybook/addon-docs"
   ],
   framework: "@storybook/react-vite",
-  staticDirs: ["../public"]
+  staticDirs: [{ from: "../public", to: "/" }],
 };
 export default config;
