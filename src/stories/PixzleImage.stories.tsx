@@ -123,6 +123,7 @@ export const WithManifestUrl: Story = {
   args: {
     manifest: "manifest.json",
     image: "img_1_fragmented.png",
+    // imageIndex: 0,
   },
   name: "With Manifest URL",
 };
